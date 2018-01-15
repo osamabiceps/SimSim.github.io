@@ -1,0 +1,95 @@
+*{
+
+	margin:0;
+	padding: 0;
+
+}
+html,body {
+				height: 100%;
+
+}
+
+body{
+
+		background: url(b0.jpg) no-repeat center center ;
+		background-size: cover;
+		display:flex;
+		flex-direction: column;
+		justify-content: center;		
+
+}
+
+
+
+
+
+.header 
+	{
+			/* Inserting and adding color to the background */
+			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("a1.jpg");
+			height:100vh;
+			background-size: cover; 
+			background-position: center;
+		
+	}
+
+.main-nav li a
+	{
+/* Adding color , text and font for the tabs */
+		color: white ;
+		text-decoration: none;
+		padding: 5px 20px;
+		font-family: "Roboto", sans-serif;
+		font-size: 15px;
+
+
+	}
+
+
+.main-nav 
+	{
+
+		float: right;
+		list-style: none;
+		margin-top: 30px;
+
+	}
+
+
+
+
+
+.container{
+
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+h1{
+	color: #FFFFFF;
+	font: 900 96px 'Mr De Haviland', cursive;
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+	margin-bottom: 24px;
+
+}
+
+.btn{
+
+		background: linear-gradient(45deg, rgba(255,133,112,0.65) 0%, rgba(255,94,185,0.65) 51%, rgba(230,39,125,0.65) 100%);
+		border-radius: 4px;
+		padding:20px 48px;
+		color: #FFFFFF;
+		font: 20px 'Neuton', serif;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+		-webkit-transition:box-shadow is ease;
+		transition: box-shadow 1s ease;
+}
+.btn:hover{
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+	-webkit-transition:box-shadow 1s ease;
+}
