@@ -23,6 +23,7 @@ body{
 
 
 
+
 .header 
 	{
 			/* Inserting and adding color to the background */
@@ -32,7 +33,6 @@ body{
 			background-position: center;
 		
 	}
-
 .main-nav li a
 	{
 /* Adding color , text and font for the tabs */
@@ -52,8 +52,8 @@ body{
 		float: right;
 		list-style: none;
 		margin-top: 30px;
-
-	}
+	}	
+	
 
 
 
@@ -69,7 +69,7 @@ body{
 
 h1{
 	color: #FFFFFF;
-	font: 900 96px 'Mr De Haviland', cursive;
+	font: 980 70px 'Mr De Haviland', cursive;
 	text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
 	margin-bottom: 24px;
 
@@ -77,7 +77,7 @@ h1{
 
 .btn{
 
-		background: linear-gradient(45deg, rgba(255,133,112,0.65) 0%, rgba(255,94,185,0.65) 51%, rgba(230,39,125,0.65) 100%);
+		background: linear-gradient(45deg, rgba(400,133,150,0.65) 0%, rgba(255,94,185,0.65) 51%, rgba(230,39,125,0.65) 100%);
 		border-radius: 4px;
 		padding:20px 48px;
 		color: #FFFFFF;
