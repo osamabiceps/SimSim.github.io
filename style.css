@@ -4,58 +4,71 @@
 	padding: 0;
 
 }
-html,body {
+
+html,body,header  {
 				height: 100%;
 
 }
 
-body{
+header {
 
-		background: url(b0.jpg) no-repeat center center ;
+
+
+	background: url(b0.jpg) no-repeat center center ;
 		background-size: cover;
-		display:flex;
-		flex-direction: column;
-		justify-content: center;		
+}
+
+
+
+.main-nav
+{
+float: right;
+list-style: none;
+margin-top: 30px;
 
 }
 
 
 
+/* Alligning the tabs in a horizontal line */
 
+.main-nav li {
 
+	display:inline-block;
+}
 
-.header 
-	{
-			/* Inserting and adding color to the background */
-			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("a1.jpg");
-			height:100vh;
-			background-size: cover; 
-			background-position: center;
+/*Setting clolor size and  font size of 
+the tabs */
+
+.main-nav li a 
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	//-webkit-text-stroke: 1px cyan;
+
+}
+
+.mian-nav.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+body{
 		
-	}
-.main-nav li a
-	{
-/* Adding color , text and font for the tabs */
-		color: white ;
-		text-decoration: none;
-		padding: 5px 20px;
-		font-family: "Roboto", sans-serif;
-		font-size: 15px;
+		display:flex;
+		flex-direction: column;
+		justify-content: center
 
-
-	}
-
-
-.main-nav 
-	{
-
-		float: right;
-		list-style: none;
-		margin-top: 30px;
-	}	
-	
-
-
+}
 
 
 
@@ -63,9 +76,15 @@ body{
 
 	width: 600px;
 	margin: 0 auto;
-	text-align: center;
+	text-align:center;
+	//vertical-align:  center;
+
 
 }
+
+
+
+
 
 h1{
 	color: #FFFFFF;
